@@ -394,16 +394,25 @@ header {
     margin-bottom: 120px;
 }
 
-.about-card {
+.about-card-row-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.about-card-row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    gap: 1.5rem;
 }
 
 .about-card-item {
-    width: 314px;
+    width: 100%;
     height: auto;
     color: white;
     background-color: #171a3d;

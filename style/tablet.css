@@ -414,17 +414,22 @@ html {
         margin-bottom: 70px;
     }
     
-    .about-card {
-        display: inline;
-        justify-content: center;
+    .about-card-row-1 {
+        display: flex;
+        justify-content: space-between;
         align-items: center;
         overflow: hidden;
-        margin-left: auto;
-        margin-right: auto;
     }
     
+    .about-card-row-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+
     .about-card-item {
-        width: auto;
+        width: 100%;
         height: auto;
         color: white;
         background-color: #171a3d;
@@ -435,7 +440,6 @@ html {
         padding-left: 30px;
         padding-right: 30px;
         cursor: pointer;
-        margin-bottom: 24px;
     }
     
     .about-card-item:hover {
@@ -553,13 +557,15 @@ html {
     
     .expertise-card-row-1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         overflow: hidden;
     }
     
     .expertise-card-row-2 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         overflow: hidden;
     }
     
